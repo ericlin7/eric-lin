@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 interface Props {
   src: string;
   alt: string;
-  height: string;
-  width: string;
+  height: number;
+  width: number;
 }
 
 function Face(props: Props) {
@@ -12,11 +13,12 @@ function Face(props: Props) {
 
   return (
     <div className="mb-4 md:ml-12 lg:ml-12">
-      <img
+      <Image
         src={src}
         alt={alt}
-        style={{ height, width }}
-        className="rounded-full object-cover"
+        width={width}
+        height={height}
+        className="rounded-full aspect-square object-cover"
       />
     </div>
   );

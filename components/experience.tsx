@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "next/image";
 
 import CalendarIcon from "@/components/icons/calendaricon";
 import LocationPin from "@/components/icons/location";
+import RightArrow from "@/components/icons/rightarrow";
 
 import type { company } from "@/types/company";
-import RightArrow from "./icons/rightarrow";
 
 interface Props {
   items: company[];
@@ -24,10 +25,12 @@ function Experience(props: Props) {
           >
             <div className="flex flex-row items-start justify-between sm:justify-start p-4 rounded-lg">
               {item.logo && (
-                <img
+                <Image
                   src={item.logo}
                   alt={`${item.name} logo`}
-                  className="w-14 h-14 object-cover mr-4"
+                  width={56}
+                  height={56}
+                  className="object-cover mr-4"
                 />
               )}
               <div className="flex-grow">
