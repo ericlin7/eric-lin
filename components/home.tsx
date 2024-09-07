@@ -30,7 +30,7 @@ function Home() {
             <Header className="mt-4" />
           </div>
           <div className="flex justify-center w-full sm:w-auto">
-            <Face src="/eric.png" alt="EL" height={175} width={175} />
+            <Face src="./eric.png" alt="EL" height={175} width={175} />
           </div>
         </div>
         <p className="mt-2 sm:mt-4 text-left leading-relaxed">

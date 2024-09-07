@@ -2,7 +2,7 @@ import type { company } from "@/types/company";
 
 export const internship: company[] = [
   {
-    logo: "/company/scrawlr_logo.png",
+    logo: "./company/scrawlr_logo.png",
     role: "Backend Developer",
     name: "Scrawlr",
     description: "Core API Team",
@@ -11,7 +11,7 @@ export const internship: company[] = [
     date: "Sept 2024 - Dec 2024",
   },
   {
-    logo: "/company/tool_zero.png",
+    logo: "./company/tool_zero.png",
     role: "Software Engineer",
     name: "Tool Zero",
     description: "Emission AI",
@@ -20,7 +20,7 @@ export const internship: company[] = [
     date: "May 2024 - Aug 2024",
   },
   {
-    logo: "/company/scrawlr_logo.png",
+    logo: "./company/scrawlr_logo.png",
     role: "Frontend Developer",
     description: "Frontend Platform Team",
     location: "Vancouver, BC, Canada",
@@ -29,7 +29,7 @@ export const internship: company[] = [
     date: "Jan 2023 - Apr 2023",
   },
   {
-    logo: "/company/grantmatch.png",
+    logo: "./company/grantmatch.png",
     role: "Software Engineer",
     description: "GrantMatch\u2122 Platform",
     location: "Oakville, ON, Canada",
